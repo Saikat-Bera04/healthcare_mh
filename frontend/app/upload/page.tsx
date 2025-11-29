@@ -104,7 +104,7 @@ export default function UploadPage() {
 
     toast({
       title: "Uploading...",
-      description: "Your PDF is being uploaded and analyzed with Gemini AI.",
+      description: "Your PDF is being uploaded and analyzed with AI.",
     })
 
     try {
@@ -149,7 +149,7 @@ export default function UploadPage() {
 
       toast({
         title: "Upload Successful",
-        description: "Your PDF has been analyzed with Gemini AI.",
+        description: "Your PDF has been analyzed with AI.",
       })
     } catch (error) {
       console.error("Upload error:", error)
@@ -359,7 +359,7 @@ export default function UploadPage() {
               <li className="flex gap-3">
                 <span className="font-semibold text-foreground">3.</span>
                 <span>
-                  🤖 <strong>Gemini AI</strong> analyzes the content to identify document type, patient info, medications, test results, and medical conditions
+                  🤖 <strong>AI</strong> analyzes the content to identify document type, patient info, medications, test results, and medical conditions
                 </span>
               </li>
               <li className="flex gap-3">
