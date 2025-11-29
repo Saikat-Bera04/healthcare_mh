@@ -42,7 +42,7 @@ Frontend
 1. In a separate terminal, install frontend deps:
 
 	cd frontend
-	npm install
+	npm install --legacy-peer-deps
 
 2. Add a local env file:
 
